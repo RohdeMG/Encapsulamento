@@ -19,7 +19,7 @@ desligar()).
 
 
 //GIT
-//no git é só configurar o repositório, e email. O resto é tudo no vscode
+//no git é só configurar o repositório, e email(cmd). O resto é tudo no vscode
 
 public class App {
     public static void main(String[] args) throws Exception {
