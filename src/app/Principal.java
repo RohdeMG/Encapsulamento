@@ -25,8 +25,11 @@ desligar()).
 //GIT
 //no git é só configurar o repositório, e email(cmd). O resto é tudo no vscode
 
-public class Controlador {
+public class Principal {
     public static void main(String[] args) throws Exception {
-
+        ControleRemoto controle1 = new ControleRemoto();
+        controle1.ligar();
+        controle1.abrirMenu();
+        controle1.maisVolume();
     }
 }
